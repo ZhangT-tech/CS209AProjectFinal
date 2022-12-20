@@ -1,0 +1,21 @@
+{
+  "login": "snicoll",
+  "id": 490484,
+  "node_id": "MDQ6VXNlcjQ5MDQ4NA==",
+  "avatar_url": "https://avatars.githubusercontent.com/u/490484?v=4",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/snicoll",
+  "html_url": "https://github.com/snicoll",
+  "followers_url": "https://api.github.com/users/snicoll/followers",
+  "following_url": "https://api.github.com/users/snicoll/following{/other_user}",
+  "gists_url": "https://api.github.com/users/snicoll/gists{/gist_id}",
+  "starred_url": "https://api.github.com/users/snicoll/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/snicoll/subscriptions",
+  "organizations_url": "https://api.github.com/users/snicoll/orgs",
+  "repos_url": "https://api.github.com/users/snicoll/repos",
+  "events_url": "https://api.github.com/users/snicoll/events{/privacy}",
+  "received_events_url": "https://api.github.com/users/snicoll/received_events",
+  "type": "User",
+  "site_admin": false,
+  "contributions": 12855
+}

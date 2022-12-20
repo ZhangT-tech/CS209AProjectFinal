@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FinalProj</title>
+    <script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body >
+
+
+<!--    <h4>Demo Representation</h4>-->
+<!--    <table border="1">-->
+<!--        <tr>-->
+<!--            <th>Name</th>-->
+<!--            <th>Developer_num</th>-->
+<!--            <th>Most_active_developer</th>-->
+<!--            <th>Open_issues</th>-->
+<!--            <th>Close_issues</th>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td id="1">var1</td>-->
+<!--            <td id="2">var2</td>-->
+<!--            <td id="3">var3</td>-->
+<!--            <td id="4">var4</td>-->
+<!--            <td id="5">var5</td>-->
+<!--        </tr>-->
+<!--    </table>-->
+
+<!--<h4>Repo's Basic Info</h4>-->
+<!--<table>-->
+<!--<p>Developers </p>-->
+<!--</table>-->
+<!--<h3>Repo: CMU-Perceptual-Computing-Lab/openpose</h3>-->
+<a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose" target="openpose">Repo: CMU-Perceptual-Computing-Lab/openpose></a>
+<br><br>
+
+    <h4>Total Developers Num: </h4>
+    <p id="00"> num </p>
+    <h4>Top10 Developers:</h4>
+    <table border="2">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Developers</th>
+            <th>avatar</th>
+            <th>avatar_url</th>
+            <th>Personal_Page</th>
+        </tr>
+        <tr>
+            <td id="11">var</td>
+            <td id="12">var</td>
+            <td id="13">var</td>
+            <td><img src="https://avatars.githubusercontent.com/u/7797094?v=4" alt="some_text" width="35" height="35">
+            </td>
+            <td id="14">var</td>
+            <td id="15">var</td>
+        </tr>
+        <tr>
+            <td id="21">var</td>
+            <td id="22">var</td>
+            <td id="23">var</td>
+            <td><img src="https://avatars.githubusercontent.com/u/3193196?v=4" alt="some_text" width="35" height="35">
+            </td>
+            <td id="24">var</td>
+            <td id="25">var</td>
+        </tr>
+        <tr>
+            <td id="31">var</td>
+            <td id="32">var</td>
+            <td id="33">var</td>
+            <td><img src="https://avatars.githubusercontent.com/u/4561285?v=4" alt="some_text" width="35" height="35">
+            </td>>
+            <td id="34">var</td>
+            <td id="35">var</td>
+        </tr>
+        <tr>
+            <td id="41">var</td>
+            <td id="42">var</td>
+            <td id="43">var</td>
+            <td><img src="https://avatars.githubusercontent.com/u/5785922?v=4" alt="some_text" width="35" height="35">
+            </td>
+            <td id="44">var</td>
+            <td id="45">var</td>
+        </tr>
+        <tr>
+            <td id="51">var</td>
+            <td id="52">var</td>
+            <td id="53">var</td>
+            <td><img src="https://avatars.githubusercontent.com/u/18014833?v=4" alt="some_text" width="35" height="35">
+            </td>
+            <td id="54">var</td>
+            <td id="55">var</td>
+        </tr>
+        <tr>
+            <td id="61">var</td>
+            <td id="62">var</td>
+            <td id="63">var</td>
+            <td><img src="https://avatars.githubusercontent.com/u/8867900?v=4" alt="some_text" width="35" height="35">
+            </td>
+            <td id="64">var</td>
+            <td id="65">var</td>
+        </tr>
+        <tr>
+            <td id="71">var</td>
+            <td id="72">var</td>
+            <td id="73">var</td>
+            <td><img src="https://avatars.githubusercontent.com/u/18168769?v=4" alt="some_text" width="35" height="35">
+            </td>
+            <td id="74">var</td>
+            <td id="75">var</td>
+        </tr>
+        <tr>
+            <td id="81">var</td>
+            <td id="82">var</td>
+            <td id="83">var</td>
+            <td><img src="https://avatars.githubusercontent.com/u/3905501?v=4" alt="some_text" width="35" height="35">
+            </td>
+            <td id="84">var</td>
+            <td id="85">var</td>
+        </tr>
+        <tr>
+            <td id="91">var</td>
+            <td id="92">var</td>
+            <td id="93">var</td>
+            <td><img src="https://avatars.githubusercontent.com/u/12238661?v=4" alt="some_text" width="35" height="35">
+            </td>
+            <td id="94">var</td>
+            <td id="95">var</td>
+        </tr>
+        <tr>
+            <td id="101">var</td>
+            <td id="102">var</td>
+            <td id="103">var</td>
+            <td><img src="https://avatars.githubusercontent.com/u/4690241?v=4" alt="some_text" width="35" height="35">
+            </td>
+            <td id="104">var</td>
+            <td id="105">var</td>
+        </tr>
+    </table>
+<br><br>
+
+
+    <h4>Issues : </h4>
+<!--<nobr>Open Issues Num: </nobr><nobr id="i01">open num </nobr>-->
+<!--<nobr>;&emsp;&emsp; Closed Issues Num: </nobr><nobr id="i02">closed num </nobr><nobr>;</nobr>-->
+<table>
+    <tr>
+        <th>Open Issues Num:</th>
+        <td id="i01">open num</td>
+    </tr>
+    <tr>
+        <th>Closed Issues Num:</th>
+        <td id="i02">closed time</td>
+    </tr>
+    <tr>
+        <th>Mean of Solution Time(Hours):</th>
+        <td id="i03">mean time</td>
+    </tr>
+    <tr>
+        <th>Extreme Value of Solution Time(Days):</th>
+        <td id="i04">extreme time</td>
+    </tr>
+    <tr>
+        <th>Variance of Solution Time(Days):</th>
+        <td id="i05">variance</td>
+    </tr>
+</table>
+<br><br>
+
+    <h4>Releases Num:</h4>
+    <p id="r00">release num</p>
+    <h4>Commits Num</h4>
+    <p id="c00">commits num</p>
+<h4>Releases Info: </h4>
+    <table border="1">
+        <tr>
+            <th>Assets_url</th>
+            <th>Created_at</th>
+            <th>Published_at</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td id="r11">var</td>
+            <td id="r12">var</td>
+            <td id="r13">var</td>
+            <td id="r14">var</td>
+        </tr>
+        <tr>
+        <th colspan="3"><i>commits num between last release and next release</i></th>
+        <td id="co12">commits num</td>
+        </tr>
+        <tr>
+            <td id="r21">var</td>
+            <td id="r22">var</td>
+            <td id="r23">var</td>
+            <td id="r24">var</td>
+        </tr>
+        <tr>
+        <th colspan="3"><i>commits num between last release and next release</i></th>
+        <td id="co23">commits num</td>
+        </tr>
+        <tr>
+            <td id="r31">var</td>
+            <td id="r32">var</td>
+            <td id="r33">var</td>
+            <td id="r34">var</td>
+        </tr>
+        <tr>
+        <th colspan="3"><i>commits num between last release and next release</i></th>
+        <td id="co34">commits num</td>
+        </tr>
+        <tr>
+            <td id="r41">var</td>
+            <td id="r42">var</td>
+            <td id="r43">var</td>
+            <td id="r44">var</td>
+        </tr>
+        <tr>
+        <th colspan="3"><i>commits num between last release and next release</i></th>
+        <td id="co45">commits num</td>
+        </tr>
+        <tr>
+            <td id="r51">var</td>
+            <td id="r52">var</td>
+            <td id="r53">var</td>
+            <td id="r54">var</td>
+        </tr>
+        <tr>
+        <th colspan="3"><i>commits num between last release and next release</i></th>
+        <td id="co56">commits num</td>
+        </tr>
+        <tr>
+            <td id="r61">var</td>
+            <td id="r62">var</td>
+            <td id="r63">var</td>
+            <td id="r64">var</td>
+        </tr>
+        <tr>
+        <th colspan="3"><i>commits num between last release and next release</i></th>
+        <td id="co67">commits num</td>
+        </tr>
+        <tr>
+            <td id="r71">var</td>
+            <td id="r72">var</td>
+            <td id="r73">var</td>
+            <td id="r74">var</td>
+        </tr>
+        <tr>
+        <th colspan="3"><i>commits num between last release and next release</i></th>
+        <td id="co78">commits num</td>
+        </tr>
+        <tr>
+            <td id="r81">var</td>
+            <td id="r82">var</td>
+            <td id="r83">var</td>
+            <td id="r84">var</td>
+        </tr>
+        <tr>
+        <th colspan="3"><i>commits num between last release and next release</i></th>
+        <td id="co89">commits num</td>
+        </tr>
+        <tr>
+            <td id="r91">var</td>
+            <td id="r92">var</td>
+            <td id="r93">var</td>
+            <td id="r94">var</td>
+        </tr>
+        <tr>
+        <th colspan="3"><i>commits num between last release and next release</i></th>
+        <td id="co910">commits num</td>
+        </tr>
+        <tr>
+            <td id="r101">var</td>
+            <td id="r102">var</td>
+            <td id="r103">var</td>
+            <td id="r104">var</td>
+        </tr>
+        <tr>
+            <th colspan="3"><i>commits num between last release and next release</i></th>
+            <td id="co1011">commits num</td>
+        </tr>
+        <tr>
+            <td id="r111">var</td>
+            <td id="r112">var</td>
+            <td id="r113">var</td>
+            <td id="r114">var</td>
+        </tr>
+        <tr>
+            <th colspan="3"><i>commits num between last release and next release</i></th>
+            <td id="co1112">commits num</td>
+        </tr>
+        <tr>
+            <td id="r121">var</td>
+            <td id="r122">var</td>
+            <td id="r123">var</td>
+            <td id="r124">var</td>
+        </tr>
+        <tr>
+            <th colspan="3"><i>commits num between last release and next release</i></th>
+            <td id="co1213">commits num</td>
+        </tr>
+        <tr>
+            <td id="r131">var</td>
+            <td id="r132">var</td>
+            <td id="r133">var</td>
+            <td id="r134">var</td>
+        </tr>
+        <tr>
+            <th colspan="3"><i>commits num between last release and next release</i></th>
+            <td id="co1314">commits num</td>
+        </tr>
+        <tr>
+            <td id="r141">var</td>
+            <td id="r142">var</td>
+            <td id="r143">var</td>
+            <td id="r144">var</td>
+        </tr>
+        <tr>
+            <th colspan="3"><i>commits num between last release and next release</i></th>
+            <td id="co1415">commits num</td>
+        </tr>
+        <tr>
+            <td id="r151">var</td>
+            <td id="r152">var</td>
+            <td id="r153">var</td>
+            <td id="r154">var</td>
+        </tr>
+
+        Process finished with exit code 0
+
+    </table>
+<br><br>
+
+<h4>Time distribution of the number of commits:</h4>
+<table border="1">
+    <tr>
+        <th>2017</th>
+        <th>2018</th>
+        <th>2019</th>
+        <th>2020</th>
+        <th>2021</th>
+    </tr>
+    <tr>
+        <td id="f17">num</td>
+        <td id="f18">num</td>
+        <td id="f19">num</td>
+        <td id="f20">num</td>
+    </tr>
+</table>
+
+<br><br>
+<a href="index2.html" target="_blank">看看别的仓库</a>
+
+
+</body>
+
+<style>
+    body{
+        background:url("Picture1.jpg");
+    }
+    /*#pic{*/
+    /*    contain: url("https://avatars.githubusercontent.com/u/7797094?v=4");*/
+    /*}*/
+</style>
+
+<script>
+    var obj;
+    function main(){
+        $.ajax({
+            url:'/repo/getInfo3',	//这是后端接口的url
+            method:'get',
+            success:function (res) {
+                obj = res;
+                // $("#1").text(obj[0]);
+                // $("#2").text(obj[1]);
+                // $("#3").text(obj[2]);
+                // $("#4").text(obj[3]);
+                // $("#5").text(obj[4]);
+                //res便是的数据便是后端拿到的数据
+                //这里需要注意：res为局部变量，
+                //所以需要在方法外定义一个变量把res赋值给他，才能在方法之外使用。
+
+
+                $("#00").text(obj[0][0]);
+                $("#i01").text(obj[0][1]);
+                $("#i02").text(obj[0][2]);
+                $("#c00").text(obj[0][3]);
+                $("#i03").text(obj[0][4]);
+                $("#i04").text(obj[0][5]);
+                $("#i05").text(obj[0][6]);
+
+                //Contributors
+                {
+                    $("#11").text(obj[1][0]);
+                    $("#12").text(obj[1][1]);
+                    $("#13").text(obj[1][2]);
+                    $("#14").text(obj[1][3]);
+                    $("#15").text(obj[1][4]);
+                    $("#21").text(obj[1][5]);
+                    $("#22").text(obj[1][6]);
+                    $("#23").text(obj[1][7]);
+                    $("#24").text(obj[1][8]);
+                    $("#25").text(obj[1][9]);
+                    $("#31").text(obj[1][10]);
+                    $("#32").text(obj[1][11]);
+                    $("#33").text(obj[1][12]);
+                    $("#34").text(obj[1][13]);
+                    $("#35").text(obj[1][14]);
+                    $("#41").text(obj[1][15]);
+                    $("#42").text(obj[1][16]);
+                    $("#43").text(obj[1][17]);
+                    $("#44").text(obj[1][18]);
+                    $("#45").text(obj[1][19]);
+                    $("#51").text(obj[1][20]);
+                    $("#52").text(obj[1][21]);
+                    $("#53").text(obj[1][22]);
+                    $("#54").text(obj[1][23]);
+                    $("#55").text(obj[1][24]);
+                    $("#61").text(obj[1][25]);
+                    $("#62").text(obj[1][26]);
+                    $("#63").text(obj[1][27]);
+                    $("#64").text(obj[1][28]);
+                    $("#65").text(obj[1][29]);
+                    $("#71").text(obj[1][30]);
+                    $("#72").text(obj[1][31]);
+                    $("#73").text(obj[1][32]);
+                    $("#74").text(obj[1][33]);
+                    $("#75").text(obj[1][34]);
+                    $("#81").text(obj[1][35]);
+                    $("#82").text(obj[1][36]);
+                    $("#83").text(obj[1][37]);
+                    $("#84").text(obj[1][38]);
+                    $("#85").text(obj[1][39]);
+                    $("#91").text(obj[1][40]);
+                    $("#92").text(obj[1][41]);
+                    $("#93").text(obj[1][42]);
+                    $("#94").text(obj[1][43]);
+                    $("#95").text(obj[1][44]);
+                    $("#101").text(obj[1][45]);
+                    $("#102").text(obj[1][46]);
+                    $("#103").text(obj[1][47]);
+                    $("#104").text(obj[1][48]);
+                    $("#105").text(obj[1][49]);
+                }
+
+                //Releases
+                $("#r00").text(obj[2][0])
+                {$("#r11").text(obj[2][1]);
+                    $("#r12").text(obj[2][2]);
+                    $("#r13").text(obj[2][3]);
+                    $("#r14").text(obj[2][4]);
+                    $("#r21").text(obj[2][5]);
+                    $("#r22").text(obj[2][6]);
+                    $("#r23").text(obj[2][7]);
+                    $("#r24").text(obj[2][8]);
+                    $("#r31").text(obj[2][9]);
+                    $("#r32").text(obj[2][10]);
+                    $("#r33").text(obj[2][11]);
+                    $("#r34").text(obj[2][12]);
+                    $("#r41").text(obj[2][13]);
+                    $("#r42").text(obj[2][14]);
+                    $("#r43").text(obj[2][15]);
+                    $("#r44").text(obj[2][16]);
+                    $("#r51").text(obj[2][17]);
+                    $("#r52").text(obj[2][18]);
+                    $("#r53").text(obj[2][19]);
+                    $("#r54").text(obj[2][20]);
+                    $("#r61").text(obj[2][21]);
+                    $("#r62").text(obj[2][22]);
+                    $("#r63").text(obj[2][23]);
+                    $("#r64").text(obj[2][24]);
+                    $("#r71").text(obj[2][25]);
+                    $("#r72").text(obj[2][26]);
+                    $("#r73").text(obj[2][27]);
+                    $("#r74").text(obj[2][28]);
+                    $("#r81").text(obj[2][29]);
+                    $("#r82").text(obj[2][30]);
+                    $("#r83").text(obj[2][31]);
+                    $("#r84").text(obj[2][32]);
+                    $("#r91").text(obj[2][33]);
+                    $("#r92").text(obj[2][34]);
+                    $("#r93").text(obj[2][35]);
+                    $("#r94").text(obj[2][36]);
+                    $("#r101").text(obj[2][37]);
+                    $("#r102").text(obj[2][38]);
+                    $("#r103").text(obj[2][39]);
+                    $("#r104").text(obj[2][40]);
+                    $("#r111").text(obj[2][41]);
+                    $("#r112").text(obj[2][42]);
+                    $("#r113").text(obj[2][43]);
+                    $("#r114").text(obj[2][44]);
+                    $("#r121").text(obj[2][45]);
+                    $("#r122").text(obj[2][46]);
+                    $("#r123").text(obj[2][47]);
+                    $("#r124").text(obj[2][48]);
+                    $("#r131").text(obj[2][49]);
+                    $("#r132").text(obj[2][50]);
+                    $("#r133").text(obj[2][51]);
+                    $("#r134").text(obj[2][52]);
+                    $("#r141").text(obj[2][53]);
+                    $("#r142").text(obj[2][54]);
+                    $("#r143").text(obj[2][55]);
+                    $("#r144").text(obj[2][56]);
+                    $("#r151").text(obj[2][57]);
+                    $("#r152").text(obj[2][58]);
+                    $("#r153").text(obj[2][59]);
+                    $("#r154").text(obj[2][60]);
+                }
+
+                //Commits between Releases
+                {
+                    $("#co12").text(obj[3][0]);
+                    $("#co23").text(obj[3][1]);
+                    $("#co34").text(obj[3][2]);
+                    $("#co45").text(obj[3][3]);
+                    $("#co56").text(obj[3][4]);
+                    $("#co67").text(obj[3][5]);
+                    $("#co78").text(obj[3][6]);
+                    $("#co89").text(obj[3][7]);
+                    $("#co910").text(obj[3][8]);
+                    $("#co1011").text(obj[3][9]);
+                    $("#co1112").text(obj[3][10]);
+                    $("#co1213").text(obj[3][11]);
+                    $("#co1314").text(obj[3][12]);
+                    $("#co1415").text(obj[3][13]);
+                }
+
+                $("#f17").text(obj[4][0]);
+                $("#f18").text(obj[4][1]);
+                $("#f19").text(obj[4][2]);
+                $("#f20").text(obj[4][3]);
+
+                // $("#222").text(obj[2][0]);
+            },
+        })
+    }
+    main();
+</script>
+</html>

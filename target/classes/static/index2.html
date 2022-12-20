@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Draft</title>
+    <script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+<h3>Draft</h3>
+<div id="11">
+   <p id="22">aaaaa</p>
+<!--    wuwuwu-->
+</div>
+
+<table>
+    <tr>
+        <td id="33">var</td>
+    </tr>
+</table>
+
+</body>
+
+<script>
+    var obj;
+    function main(){
+        $.ajax({
+            url:'/repo/getInfo4',
+            method:'get',
+            success:function (res){
+                obj=res;
+                $("#11").text(obj);
+                $("#22").text(obj);
+                $("#33").text(obj);
+            },
+        })
+    }
+    main();
+</script>
+
+</html>
