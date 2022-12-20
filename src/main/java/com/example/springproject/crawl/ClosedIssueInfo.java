@@ -1,17 +1,4 @@
 package com.example.springproject.crawl;
-import com.example.springproject.domain.Contributor;
-import org.apache.ibatis.jdbc.SQL;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-import us.codecraft.webmagic.ResultItems;
-import us.codecraft.webmagic.Task;
-
-
-
-
-
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -22,6 +9,12 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.sql.Connection;
 import java.sql.Date;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -113,8 +106,6 @@ public class ClosedIssueInfo {
         lock.unlock();
 
     }
-
-
 
     public static void readByURL(String url) throws IOException, ParseException, SQLException, java.text.ParseException {
         URL u = new URL(url);
